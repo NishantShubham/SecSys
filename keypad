@@ -23,7 +23,7 @@ void setup()
 {
   pinMode(relay_pin, OUTPUT);
   liquid_crystal_display.begin(16,2);
-  liquid_crystal_display.print(" DIYhacking.com");
+  liquid_crystal_display.print(" Home Security");
   liquid_crystal_display.setCursor(0,1);
   liquid_crystal_display.print("Electronic Lock ");
   delay(2000);
